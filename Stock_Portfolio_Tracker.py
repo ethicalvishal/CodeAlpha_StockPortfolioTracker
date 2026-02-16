@@ -7,7 +7,7 @@ stocks = {
 
 total_investment = 0
 
-print("📈 Stock Portfolio Tracker")
+print("Stock Portfolio Tracker")
 
 while True:
     stock_name = input("Enter stock name (or 'done' to finish): ").upper()
@@ -23,10 +23,10 @@ while True:
     else:
         print("⚠ Stock not found!")
 
-print("\n💰 Total Investment Value: $", total_investment)
+print("\n Total Investment Value: $", total_investment)
 
 # Optional file save
 with open("portfolio.txt", "w") as file:
     file.write(f"Total Investment: ${total_investment}")
 
-print("📁 Data saved to portfolio.txt")
+print(" Data saved to portfolio.txt")
